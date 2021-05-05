@@ -56,7 +56,7 @@ ROOT_URLCONF = 'aac.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['aac/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
