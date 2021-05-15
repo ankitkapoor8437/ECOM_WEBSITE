@@ -1,1 +1,1 @@
-web: gunicorn textutils.wsgi
+web: gunicorn aac.wsgi
