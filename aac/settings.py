@@ -121,7 +121,7 @@ USE_TZ = True
 import os
 
 STATIC_URL = '/static/'
-STATIC_ROOT= '/staticfiles/'
+STATIC_ROOT= '/media/'
 #  MANAGING MEDIA
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL ='/media/'
