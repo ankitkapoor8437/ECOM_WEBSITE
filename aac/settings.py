@@ -128,7 +128,6 @@ else:
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-# added
 
 # STATIC_URL = '/static/'
 # #  MANAGING MEDIA
