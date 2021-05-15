@@ -3,7 +3,7 @@ from .models import Product, Contact, Orders, OrderUpdate
 from math import ceil
 import json
 from django.views.decorators.csrf import csrf_exempt
-from Paytm import Checksum
+from PayTm import Checksum
 # Create your views here.
 from django.http import HttpResponse
 MERCHANT_KEY = 'vDeW3BmauvbXWGFg'
